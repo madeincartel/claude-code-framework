@@ -3,9 +3,7 @@ name: user-spec-planning
 description: |
   Creates user-spec.md through adaptive interview with codebase scanning and dual validation.
 
-  Use when: "сделай юзер спек", "проведи интервью для юзер спека",
-  "создай юзерспек", "user spec", "detailed planning", "хочу продумать фичу",
-  "опиши требования к фиче", "сделай описание фичи", "/new-user-spec"
+  Use when: "draft user spec", "user spec", "detailed planning", "i have a feature idea", "/new-user-spec"
 
   For tech planning use tech-spec-planning. For project planning use project-planning.
 ---
@@ -17,7 +15,7 @@ Output: `work/{feature}/user-spec.md` with status `approved`.
 
 ## Interview Style
 
-Conduct interview in Russian. Be thorough and opinionated — an engaged co-thinker who actively proposes solutions and challenges weak answers.
+Conduct interview in English. Be thorough and opinionated — an engaged co-thinker who actively proposes solutions and challenges weak answers.
 
 **How to interview:**
 - 3-4 questions per batch. Run as many batches as needed until the cycle's items are fully covered.
