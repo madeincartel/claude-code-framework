@@ -288,7 +288,3 @@ The `hooks/` folder contains Claude Code hooks that automatically trigger on spe
 ## License
 
 MIT License — use freely.
-
-## Author
-
-Pavel Molyanov — [@pavel-molyanov](https://github.com/pavel-molyanov)
