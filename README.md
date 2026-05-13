@@ -56,7 +56,7 @@ The agent loads the **`user-spec-planning`** skill, reads Project Knowledge, sca
 2. **With code context** — the agent has already studied the project and asks follow-up questions about integration, existing patterns, and dependencies
 3. **Edge cases** — boundary conditions, errors, what-if scenarios
 
-After the interview, the `interview-completeness-checker` agent verifies there are no gaps. Then the agent produces user-spec.md — a requirements specification in Russian, understandable to a non-technical person.
+After the interview, the `interview-completeness-checker` agent verifies there are no gaps. Then the agent produces user-spec.md — a requirements specification in English, understandable to a non-technical person.
 
 Two validators check the result (up to 3 correction iterations):
 - **`userspec-quality-validator`** — document structure, testability of acceptance criteria
@@ -123,7 +123,7 @@ Closes out the feature: reads user-spec, tech-spec, and decisions.md (decisions 
 
 ```
 work/{feature}/
-├── user-spec.md       # What we're building (Russian, for humans)
+├── user-spec.md       # What we're building (English, for humans)
 ├── tech-spec.md       # How we're building it (English, for the agent)
 ├── decisions.md       # Decisions made during development
 ├── tasks/
