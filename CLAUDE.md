@@ -1,8 +1,8 @@
 ## Language
-- Communicate with user, plans, plan-mode: Russian
+- Communicate with user, plans, plan-mode: English
 - Tech docs (code, context, rules, CLAUDE.md, skills): English
 - AI prompts: English
-- User-facing docs (README): Russian
+- User-facing docs (README): English
 
 ## Behavior
 
